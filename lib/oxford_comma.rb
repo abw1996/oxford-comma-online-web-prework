@@ -3,7 +3,8 @@ def oxford_comma(array)
     return array.join
   else
     final = array.last
-    array.pop ar
-    
+    array.pop
+    craze = array.join(" , ")
+    puts (craze + "and #{final}")
   end
 end
