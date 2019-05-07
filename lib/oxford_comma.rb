@@ -4,7 +4,7 @@ def oxford_comma(array)
   else
     final = array.last
     array.pop
-    craze = array.join(" , ")
-    return (craze + "and #{final}")
+    craze = array.join(", ")
+    return (craze + ", and #{final}")
   end
 end
