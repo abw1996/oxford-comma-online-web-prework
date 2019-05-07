@@ -5,6 +5,6 @@ def oxford_comma(array)
     final = array.last
     array.pop
     craze = array.join(" , ")
-    returns (craze + "and #{final}")
+    return (craze + "and #{final}")
   end
 end
